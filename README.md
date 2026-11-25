@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e0b8,100:7b5cff&height=200&section=header&text=FRUX%20REGION%20CHECKER&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Fast%20%7C%20Beautiful%20%7C%20Free%20Fire%20UID%20Lookup&descAlignY=58&descSize=16" width="100%"/>
@@ -100,45 +99,3 @@
 ```bash
 git clone https://github.com/FRUX-YT/FF-REGION-CHECK-SRC.git
 cd FF-REGION-CHECK-SRC
-```
-
-2️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-3️⃣ Run the App
-
-```bash
-python app.py
-```
-
-4️⃣ Open in Browser
-
-🌐 http://localhost:5000
-
----
-
-<div align="center">
-
-🌐 API ENDPOINT 🌐
-
-</div>
-
-Request
-
-```http
-GET /FRUXREGIONCHECKER?uid=1234567890
-```
-
-Success Response 200 OK
-
-```json
-{
-  "uid": "1234567890",
-  "open_id": "abcd1234efgh5678",
-  "nickname": "PlayerName",
-  "region": "ME"
-}
-```
